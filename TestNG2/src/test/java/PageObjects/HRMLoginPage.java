@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class HRMLoginPage {
 public static WebDriver driver;
-// By user_name = By.xpath("//input[@placeholder='Username']");
+
 WebElement user_name = driver.findElement(By.xpath("//input[@placeholder='Username']"));
 WebElement user_password = driver.findElement(By.xpath("//input[@placeholder='Password']"));
 WebElement login_btn = driver.findElement(By.xpath("//button[normalize-space()='Login']"));
